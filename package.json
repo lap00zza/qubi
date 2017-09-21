@@ -1,0 +1,24 @@
+{
+  "name": "qubi",
+  "version": "1.0.0",
+  "description": "Password checklist to number",
+  "main": "qubi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lap00zza/qubi.git"
+  },
+  "keywords": [
+    "password",
+    "checklist",
+    "number"
+  ],
+  "author": "Jewel Mahanta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lap00zza/qubi/issues"
+  },
+  "homepage": "https://github.com/lap00zza/qubi#readme"
+}

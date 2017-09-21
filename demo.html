@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label for="pass">Password</label>
+<input type="password" id="pass">
+<progress id="strength"></progress>
+</body>
+<script src="qubi.js"></script>
+<script>
+    var strength = document.getElementById("strength");
+    var passInput = document.getElementById("pass");
+    strength.value = 0;
+    strength.max = Qubi.totalScore;
+    passInput.addEventListener("keyup", function () {
+        strength.value = Qubi.checkPassword(passInput.value);
+    });
+</script>
+</html>
