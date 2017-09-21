@@ -9,7 +9,7 @@ Each adapter:
 
 ## Using qubi
 * npm - `npm install qubi`
-* CDN - `https://unpkg.com/qubi@lates/qubi.js`
+* CDN - `https://unpkg.com/qubi@latest/qubi.js`
 
 ## Example
 Check [demo.html](https://github.com/lap00zza/qubi/blob/master/demo.html)
