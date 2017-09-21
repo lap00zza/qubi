@@ -1,4 +1,4 @@
-declare const Qubi: {
+interface QubiInstance {
     /**
      * The total achievable score which is the number of adapters.
      */
@@ -11,6 +11,7 @@ declare const Qubi: {
      * @returns {Number} score - A number between 0 and {@link totalScore}
      */
     checkPassword(password: String): Number;
-};
+}
 
+declare const Qubi: QubiInstance;
 export default Qubi;
