@@ -6,7 +6,11 @@ adapters which make sure your password constraints are satisfied.
 Each adapter:
    * Has a "password" parameter
    * Returns a boolean
-   
+
+# Using qubi
+* npm - `npm install qubi`
+* CDN - `https://unpkg.com/qubi@1.0.0/qubi.js`
+
 ## Example
 Check [demo.html](https://github.com/lap00zza/qubi/blob/master/demo.html)
 
