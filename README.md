@@ -7,7 +7,7 @@ Each adapter:
    * Has a "password" parameter
    * Returns a boolean
 
-# Using qubi
+## Using qubi
 * npm - `npm install qubi`
 * CDN - `https://unpkg.com/qubi@1.0.0/qubi.js`
 
