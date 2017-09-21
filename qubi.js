@@ -47,7 +47,7 @@
     // Credit to OWASP for the special characters
     // https://www.owasp.org/index.php/Password_special_characters
     var hasSpecialChars = function (password) {
-        return password.match(/[ !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/gi);
+        return Boolean(password.match(/[ !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/gi));
     };
 
     // --- Qubi starts here ---
