@@ -38,7 +38,7 @@
 
     var hasNumber = function (password) {
         // O(n) can be optimized
-        return letters(password).filter(charRange("1", "9")).length > 0;
+        return letters(password).filter(charRange("0", "9")).length > 0;
     };
 
     var hasUppercase = function (password) {
@@ -76,5 +76,5 @@
             });
             return currentScore;
         }
-    }
+    };
 }));
