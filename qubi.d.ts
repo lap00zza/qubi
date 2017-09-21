@@ -1,4 +1,4 @@
-interface QubiInstance {
+interface QubiStatic {
     /**
      * The total achievable score which is the number of adapters.
      */
@@ -13,5 +13,5 @@ interface QubiInstance {
     checkPassword(password: String): Number;
 }
 
-declare const Qubi: QubiInstance;
+declare const Qubi: QubiStatic;
 export default Qubi;
