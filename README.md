@@ -1,4 +1,4 @@
-## qubi
+# qubi
 qubi is a simple javascript library that converts a password
 checklist to a numeric score. This score can then be piped to a
 progress element to make a password meter. Qubi makes use of
