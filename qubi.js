@@ -49,7 +49,7 @@
     };
 
     // --- Adapters ---
-    var length = function (length) {
+    var isLength = function (length) {
         return function (password) {
             return password.length >= length;
         }
@@ -78,8 +78,8 @@
 
     // --- Qubi starts here ---
     var adapters = [
-        length(8),
-        length(14),
+        isLength(8),
+        isLength(14),
         hasNumber,
         hasUppercase,
         hasLowercase,
