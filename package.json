@@ -1,6 +1,6 @@
 {
   "name": "qubi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Password checklist to number",
   "main": "qubi.js",
   "scripts": {
