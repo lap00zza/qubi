@@ -14,7 +14,7 @@ Each adapter:
 ## Example
 Check [demo.html](https://github.com/lap00zza/qubi/blob/master/demo.html)
 
-### License
+## License
 [MIT](https://github.com/lap00zza/qubi/blob/master/LICENSE)
 
 Copyright (C) 2017 Jewel Mahanta
