@@ -30,8 +30,15 @@
     };
 
     // --- Adapters ---
-    var length = function (password) {
-        return password.length >= 8;
+    var length = function (length) {
+        return function (password) {
+            return password.length >= length;
+        }
+    };
+
+    var hasNumber = function (password) {
+        // O(n) can be optimized
+        return letters(password).filter(charRange("1", "9")).length > 0;
     };
 
     var hasUppercase = function (password) {
@@ -52,7 +59,9 @@
 
     // --- Qubi starts here ---
     var adapters = [
-        length,
+        length(8),
+        length(14),
+        hasNumber,
         hasUppercase,
         hasLowercase,
         hasSpecialChars
